@@ -1,0 +1,25 @@
+.fileInfo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+$size: 400px;
+
+.grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(auto-fill, minmax($size, 1fr));
+
+  // center items horizontally/vertically within their grid cell
+  justify-items: center;
+  align-items: center;
+
+  > div {
+    width: $size;
+    height: 300px;
+  }
+
+  margin-bottom: 30px;
+}

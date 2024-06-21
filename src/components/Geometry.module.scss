@@ -1,0 +1,9 @@
+.container {
+  height: 200px;
+  width: 400px;
+  background-color: gray;
+
+  canvas {
+    position: unset !important;
+  }
+}
